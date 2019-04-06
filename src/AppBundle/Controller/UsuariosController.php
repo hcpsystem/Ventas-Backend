@@ -17,7 +17,7 @@ class UsuariosController extends Controller
      */
     public function findAction(Request $request)
     {
-        $r=['STATUS'=> 'HOLA']; 
+        $r=['STATUS'=> 'HOLA COMO ESTAS']; 
         return $this->json($r);
     }
 }
